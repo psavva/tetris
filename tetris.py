@@ -116,7 +116,7 @@ class Tetris:
     def __init__(self):
         pygame.init()
         self.screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
-        pygame.display.set_caption("Tetris - Classic Pivot + 3D Blocks + Levels")
+        pygame.display.set_caption("Tetris - Classic")
 
         # For held-key movement
         pygame.key.set_repeat(200, 50)
